@@ -47,7 +47,7 @@ body {
 }
 
 .splide__pagination__page {
-  bottom: -2rem;
+  bottom: -.5rem;
   color: var(--color-yellow);
 }
 
