@@ -22,7 +22,42 @@ li {
   list-style: none;
 }
 
+img {
+  height: auto;
+  width: 100%;
+  border-radius: 10px;
+}
+
 body {
   background-color: #2d3436;
   height: 100vh;
+}
+
+.slider_wrapper {
+  padding: 30px 0px;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.splide__arrow {
+  opacity: 1;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #f6ef1e87;
+}
+
+.splide__pagination__page {
+  bottom: -2rem;
+  color: var(--color-yellow);
+}
+
+.slider_wrapper .splide__pagination__page.is-active {
+  opacity: 1;
+  background-color: var(--color-yellow);
+}
+
+@media screen and (min-width: 640px) {
+  .slider_wrapper .splide {
+      padding: 0 4rem;
+  }
 }
