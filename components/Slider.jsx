@@ -32,31 +32,31 @@ export default function Slider() {
         >
 
             <SplideSlide className="slider_wrapper">
-                <img src="./public/img/8.png" alt="Image 1"/>
+                <img src="./img/8.png" alt="Image 1"/>
             </SplideSlide>
 
             <SplideSlide className="slider_wrapper">
-                <img src="./public/img/9.png" alt="Image 2"/>
+                <img src="./img/9.png" alt="Image 2"/>
             </SplideSlide>
 
             <SplideSlide className="slider_wrapper">
-                <img src="./public/img/10.png" alt="Image 3"/>
+                <img src="./img/10.png" alt="Image 3"/>
             </SplideSlide>
 
             <SplideSlide className="slider_wrapper">
-                <img src="./public/img/11.png" alt="Image 4"/>
+                <img src="./img/11.png" alt="Image 4"/>
             </SplideSlide>
 
             <SplideSlide className="slider_wrapper">
-                <img src="./public/img/12.png" alt="Image 5"/>
+                <img src="./img/12.png" alt="Image 5"/>
             </SplideSlide>
 
             <SplideSlide className="slider_wrapper">
-                <img src="./public/img/13.png" alt="Image 6"/>
+                <img src="./img/13.png" alt="Image 6"/>
             </SplideSlide>
 
             <SplideSlide className="slider_wrapper">
-                <img src="./public/img/14.png" alt="Image 7"/>
+                <img src="./img/14.png" alt="Image 7"/>
             </SplideSlide>
 
         </Splide>
